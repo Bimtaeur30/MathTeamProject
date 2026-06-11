@@ -1,0 +1,17 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/MemberWorkspace/Taejun/UI/TitleSceneUsss.uss?fileID=7433441132597879392&amp;guid=d56991b5586d3b64586d8f27103c283f&amp;type=3#TitleSceneUsss"/>
+    <ui:VisualElement class="root">
+        <ui:VisualElement class="noise-layer"/>
+        <ui:Label text="고기코인" class="title chaos-wiggle"/>
+        <ui:Label text="수열을 믿어라. 확률은 배신한다." class="subtitle chaos-rotate"/>
+        <ui:VisualElement class="slot-box chaos-wiggle">
+            <ui:Label text="🐟  1  1  2  3  5  8  13  🪙" class="reel reel-a"/>
+            <ui:Label text="∑ 777 ∞ 404 ₩₩₩ FISH JACKPOT" class="reel reel-b"/>
+            <ui:Label text="🐟 🐟 🐟  고기상승장  🐟 🐟 🐟" class="reel reel-c"/>
+        </ui:VisualElement>
+        <ui:Button text="도 박 시 작" name="StartButton" class="main-button chaos-rotate"/>
+        <ui:Button text="수열 공식 보기" name="FormulaButton" class="sub-button chaos-wiggle"/>
+        <ui:Button text="도망가기" name="ExitButton" class="sub-button"/>
+        <ui:Label text="※ 피보나치가 웃으면 코인이 오른다 ※" class="warning chaos-rotate"/>
+    </ui:VisualElement>
+</ui:UXML>
